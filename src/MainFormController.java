@@ -1,6 +1,9 @@
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
 public class MainFormController {
+    public TextField txtInput;
+
     public void num1OnAction(MouseEvent mouseEvent) {
         setNumber(1);
     }
@@ -57,6 +60,6 @@ public class MainFormController {
     }
 
     private void setNumber(double number){
-
+    txtInput.setText(txtInput.getText()+String.valueOf(number));
     }
 }
