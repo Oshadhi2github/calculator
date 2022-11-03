@@ -59,7 +59,7 @@ public class MainFormController {
     public void mulOnAction(MouseEvent mouseEvent) {
     }
 
-    private void setNumber(double number){
-    txtInput.setText(txtInput.getText()+String.valueOf(number));
+    private void setNumber(int number){
+    txtInput.setText(txtInput.getText()+(number));
     }
 }
